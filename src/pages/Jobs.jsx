@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import API from "../services/api";
 import Sidebar from "../components/Sidebar";
-import JobCard from "../components//JobCard";
+import JobCard from "../components/JobCard";
 
 function Jobs() {
   const [jobs, setJobs] = useState([]);
