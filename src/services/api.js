@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://jobportal-backend-1-ynho.onrender.com//api",
+  baseURL: "https://jobportal-backend-1-ynho.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
